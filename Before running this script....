@@ -1,0 +1,9 @@
+
+1. which kernel i'm downloading? 
+R: this is my favorite kernel which name is liquorix kernel, is a gaming kernel that improves latency and reduce frame time deviation in games
+
+2. why downloading and not installing?
+R: i just give the option to download it cause i think it gon to be too much edit your grub config file to use the liquorix kernel making that your choice to use this kernel
+
+3. why making this script 
+R: this script is design for a clean install of Fedora to just install what you need for gaming if you're too lazy to do it by yourself
