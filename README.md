@@ -1,5 +1,7 @@
-# Fedortall-
+# Fedortall
 a quick way to get on gaming with Fedora linux with custom kernels for gaming and windows equivalent programs
+
+(this script is a early version I'm gonna set for options and programs or some config for gaming)
 
 programs website and info used for this script:
 
