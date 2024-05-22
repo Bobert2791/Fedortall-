@@ -16,3 +16,5 @@ heroic game launcher: https://flathub.org/apps/com.heroicgameslauncher.hgl
 cooler control: https://gitlab.com/coolercontrol/coolercontrol
 
 flatpak repository: https://flatpak.org/setup/Fedora
+
+Dualshock4 Bluetooth support config website: https://gbatemp.net/threads/connecting-a-ps4-controller-to-fedora-32-linux-through-bluetooth-works-for-me-try-this.579843/
