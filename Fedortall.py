@@ -81,15 +81,18 @@ elif licor == "n":
 else: print("invalid key")
 
 #Dualshock 4 bluetooth support
-
-DS4MAIN = '''su; touch /etc/udev/rules.d/bluetooth.rules; echo ACTION=="add", SUBSYSTEM=="hid", ATTR{power/control}="on" >> /etc/udev/rules.d/bluetooth.rules'''
-DS4= input("install Dualshock 4 Bluetooth support? (y/n)")
+DSEXIT = "exit"
+DS4MAIN = '''sudo su | touch /etc/udev/rules.d/bluetooth.rules; echo ACTION=="add", SUBSYSTEM=="hid", ATTR{power/control}="on" >> /etc/udev/rules.d/bluetooth.rules'''
+DS4 = input("install Dualshock 4 Bluetooth support? (y/n)")
 if DS4 == "y":
   print("installing... (again)")
-  subprocess.run( 
+  DS4PROCESS= subprocess.run( 
   DS4MAIN,
+  DSEXIT,
   shell=True,
-  check=True
+  check=True,
+  stdout=True,
+  stderr=True,
   
   )
 elif DS4 == "n":
@@ -98,6 +101,8 @@ else: print("invalid key")
 
 print("Installation successful thanks for believing in me ●‿●")
 
+
+stdout = process.stdout
 stderr = process.stderr
 print(stderr)
 
