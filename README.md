@@ -10,3 +10,7 @@ steam installation: https://docs.fedoraproject.org/en-US/gaming/proton/
 corectrl: https://gitlab.com/corectrl/corectrl
 
 heroic game launcher: https://flathub.org/apps/com.heroicgameslauncher.hgl
+
+cooler control: https://gitlab.com/coolercontrol/coolercontrol
+
+flatpak repository: https://flatpak.org/setup/Fedora
